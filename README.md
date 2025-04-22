@@ -1,9 +1,19 @@
 # Phonebook Backend
 
-This is the backend for the Phonebook app (Full Stack Open course - Part 3).
+Backend for the Full Stack Open Phonebook application (Part 3).
 
-## Deployed on Render
+## Live Application
 
-🔗 [Live API](https://phonebook-backend-ulf9.onrender.com/api/persons)
+🔗 [Frontend + Backend on Render](https://phonebook-backend-ulf9.onrender.com)
 
-This backend serves JSON data for the phonebook app.
+- The production build of the frontend is served directly by the backend.
+- The backend API can be accessed at `/api/persons`
+
+Example:  
+`https://phonebook-backend-ulf9.onrender.com/api/persons`
+
+## How to run locally
+
+1. Clone the repo
+2. Install dependencies:
+
