@@ -5,6 +5,8 @@ const cors = require('cors')
 
 app.use(cors())
 
+app.use(express.static('dist'))
+
 
 morgan.token('body', (req) => {
     return req.method === 'POST' ? JSON.stringify(req.body) : ''
@@ -88,6 +90,7 @@ app.get('/info', (request, response) => {
       <p>${time}</p>
     `)
 })
+
 
 const PORT = process.env.PORT || 3001
 app.listen(PORT, () => {
