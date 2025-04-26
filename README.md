@@ -1,4 +1,6 @@
-# Fullstack Open 2024
+# Fullstack Open 2025
+
+# Phonebook Backend (Fullstack Project)
 
 My solutions for the Fullstack Open course by the University of Helsinki.
 
